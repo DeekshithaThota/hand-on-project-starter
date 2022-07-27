@@ -1,0 +1,91 @@
+* {
+  background-color: rgba(247, 248, 250, 0.5);
+}
+.header {
+  width: 1340px;
+  height: 186px;
+  background-color: #c3e7fd;
+  border: blueviolet;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.block {
+  position: relative;
+  height: 100%;
+  width: 407px;
+  background-color: #d3b4f6;
+  border-radius: 0px 100px 100px 0px;
+}
+.head {
+  position: absolute;
+  width: 595px;
+  height: 92px;
+  left: 560px;
+  top: 120px;
+}
+.head h1 {
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.head p {
+  font-size: 20px;
+  font-family: cursive;
+  color: #566474;
+}
+.button button {
+  position: absolute;
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  color: white;
+  left: 1260px;
+  top: 170px;
+  border-radius: 7px;
+}
+.APIs h3 {
+  left: 50px;
+}
+.apiflex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  offset-distance: 40px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 00px;
+}
+.card {
+  /* box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2); */
+  padding: 2px;
+  text-align: center;
+  background-color: white;
+  margin: 0 15px;
+}
+.nav {
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  font-family: cursive;
+  margin-top: 20px;
+}
+.nav button {
+  position: absolute;
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 7px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.nav a {
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+}
